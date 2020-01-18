@@ -89,6 +89,10 @@ body {
     overflow: scroll;
     overflow: hidden;
     padding-top: 70px;
+    h5 {
+        color:black;
+        padding-left: 20px;
+    }
     ul {
         width: 100%;
         padding: 0;
@@ -113,20 +117,21 @@ body {
                     height: 8px;
                     // content: url(images/next.svg) ;
                 }
+                span {
+                    padding-left: 20px;
+                }
+                .sidenav__img {
+                    width: 13px;
+                    height: 13px;
+                }
             }
         }
     }    
 }    
-span {
-    padding-left: 20px;
-}
 
 h5 {
     color:black;
     padding-left: 20px;
 }
-.sidenav__img {
-    width: 13px;
-    height: 13px;
-}
+
     

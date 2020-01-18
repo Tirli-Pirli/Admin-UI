@@ -75,6 +75,9 @@ body {
   overflow: scroll;
   overflow: hidden;
   padding-top: 70px; }
+  .sidenav h5 {
+    color: black;
+    padding-left: 20px; }
   .sidenav ul {
     width: 100%;
     padding: 0; }
@@ -96,15 +99,13 @@ body {
           padding-right: 8px;
           width: 8px;
           height: 8px; }
-
-span {
-  padding-left: 20px; }
+        .sidenav ul li a span {
+          padding-left: 20px; }
+        .sidenav ul li a .sidenav__img {
+          width: 13px;
+          height: 13px; }
 
 h5 {
   color: black;
   padding-left: 20px; }
-
-.sidenav__img {
-  width: 13px;
-  height: 13px; }
 
