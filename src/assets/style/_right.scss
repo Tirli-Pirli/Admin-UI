@@ -1,0 +1,44 @@
+.containerOne {
+    margin-left: 200px;
+    &__name {
+        padding-top: 70px;
+        padding-left: 10px;
+    }
+}
+.containerTwo {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__imgee{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        flex: 1;
+        margin: 10px;
+        justify-content: space-between;
+        &__log {
+            background-color:#88cc92;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #5e9e66;
+            display: flex;
+            justify-content: center;
+            margin-left: 15px;
+            &__size {
+                width: 30px;
+            }
+        }
+        &__text {
+            text-align: center;
+            margin-right: 15px;
+            h2 {
+                margin-bottom: 0;
+            }
+            p {
+                margin-top: 5px;
+            }
+        }
+    }
+}
