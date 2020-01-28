@@ -14,5 +14,6 @@ import './assets/images/next.svg';
 import './assets/images/notification.svg';
 import './assets/images/pause-button.svg';
 import './assets/images/house.svg';
+import './index.hbs';
 
 
